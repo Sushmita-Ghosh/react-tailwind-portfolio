@@ -6,8 +6,8 @@ This is a portfolio website built using react and tailwind. Used [Vite](https://
 ***
 #### Technologies Used:
 
-* React Js
-* Tailwind Css
+* ```React Js```
+* ```Tailwind Css```
 
 ## Features
 ***
