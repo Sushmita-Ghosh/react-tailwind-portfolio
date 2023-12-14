@@ -1,47 +1,35 @@
-import { useState } from "react";
+import { BsStars } from "react-icons/bs";
+import { useContext } from "react";
+import DarkModeContext from "../../context/context";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [expandNavBar, setExpandNavBar] = useState(false);
-  return (
-    <div className="flex justify-between gap-10 p-5 bg-peach text-lg font-bold  w-[100%]">
-      <div className="flex flex-row gap-10">
-        <div className="">
-          <Link to="/">
-            <span>Home</span>
-          </Link>
-        </div>
-        <div>
-          <Link to="/projects">
-            <span>Project</span>
-          </Link>
-        </div>
-        <div>
-          <Link to="/experience">Experience</Link>
-        </div>
-      </div>
+  const { setDarkMode, darkMode } = useContext(DarkModeContext);
 
-      {/* toggleButton */}
-      <div className="flex justify-end">
-        <button onClick={() => setExpandNavBar(!expandNavBar)}>
-          <svg
-            onClick={() => setExpandNavBar(!expandNavBar)}
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M4 6h16M4 12h16M4 18h16"
+  return (
+    <section className="bg-white px-10 dark:bg-gray-900 dark:text-white">
+      <nav className="py-5 mb-12 flex justify-between">
+        <h1 className="text-xl font-burtons">MyPortfolio</h1>
+        <ul className="flex items-center">
+          <li>
+            <BsStars
+              onClick={() => setDarkMode(!darkMode)}
+              className="cursor-pointer text-2xl"
             />
-          </svg>
-        </button>
-      </div>
-    </div>
+          </li>
+          <li>
+            <Link
+              to={"../../../public/Sushmita_Ghosh_Resume.pdf"}
+              target="_blank"
+              download={true}
+              className="bg-gradient-to-r from-purple-400 to-pink-400 text-white px-4 py-2 rounded-md ml-8"
+            >
+              Resume
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </section>
   );
 };
 
