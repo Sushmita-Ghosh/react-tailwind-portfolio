@@ -7,8 +7,7 @@ export default {
         peach: "#f5a04f",
       },
       fontFamily: {
-        sans: ["Nunito Sans", "sans-serif"],
-        serif: ["Cedarville Cursive", "serif"],
+        burtons: "burtons",
       },
     },
   },

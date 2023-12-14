@@ -4,17 +4,24 @@ import Experience from "./components/Experience/Experience";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
+import { useState } from "react";
+import DarkModeContext from "./context/context";
 function App() {
-  return (
-    <div className>
-      <Header />
+  const [darkMode, setDarkMode] = useState(false);
 
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Footer />
-    </div>
+  return (
+    <DarkModeContext.Provider value={{ darkMode, setDarkMode }}>
+      <div className={darkMode ? "dark" : ""}>
+        <div className="dark:bg-gray-900 dark:text-white">
+          <Header />
+          <About />
+          <Skills />
+          <Experience />
+          <Projects />
+          <Footer />
+        </div>
+      </div>
+    </DarkModeContext.Provider>
   );
 }
 
