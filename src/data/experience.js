@@ -9,7 +9,7 @@ export const experience = [
     endDate: "Nov, 2023",
     experiences: [
       "Implemented core features on the website.",
-      "Reduced load times by 50%",
+      "Contributed to In-house UI Library",
     ],
     imageSrc: ps,
   },
