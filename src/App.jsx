@@ -1,10 +1,19 @@
-import { Outlet } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Experience from "./components/Experience/Experience";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 function App() {
   return (
-    <div className="flex justify-center flex-col items-center w-[100vw]">
+    <div className>
       <Header />
-      <Outlet />
+
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Footer />
     </div>
   );
 }
