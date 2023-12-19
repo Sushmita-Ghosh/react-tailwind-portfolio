@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import { useState } from "react";
 import DarkModeContext from "./context/context";
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <DarkModeContext.Provider value={{ darkMode, setDarkMode }}>
@@ -15,8 +15,9 @@ function App() {
         <div className="dark:bg-gray-900 dark:text-white">
           <Header />
           <About />
-          <Skills />
           <Experience />
+          <Skills />
+
           <Projects />
           <Footer />
         </div>
