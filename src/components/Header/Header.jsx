@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"../../../public/Sushmita_Ghosh_Resume.pdf"}
+              to={"../../../public/SushmitaGhoshResume.pdf"}
               target="_blank"
               download={true}
               className="bg-gradient-to-r from-purple-400 to-pink-400 text-white px-4 py-2 rounded-md ml-8"

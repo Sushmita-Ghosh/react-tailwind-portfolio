@@ -9,6 +9,15 @@ export default {
       fontFamily: {
         burtons: "burtons",
       },
+      keyframes: {
+        updown: {
+          "0%, 100%": { transform: "translateY(-20px)" },
+          "50%": { transform: "translateY(20px)" },
+        },
+      },
+      animation: {
+        updown: "updown 3s linear infinite",
+      },
     },
   },
   darkMode: "class",
