@@ -19,3 +19,5 @@ This is a portfolio website built using react and tailwind. Used [Vite](https://
 
 - `react-simple-typewriter`
 - `react-fast-marquee`
+
+**Hosted At:** https://sushmita-portfolio.vercel.app/
