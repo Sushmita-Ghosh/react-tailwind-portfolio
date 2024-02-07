@@ -8,8 +8,8 @@ const ProjectCard = ({
   imageSrc,
   description,
   skills,
-  //   demo,
-  //   source,
+  demo,
+  source,
 }) => {
   return (
     <div className="m-5 md:m-10 rounded-lg">
@@ -20,10 +20,10 @@ const ProjectCard = ({
           className="rounded-lg h-full w-full object-cover"
         />
         <div className="overlay  items-center justify-center absolute top-0 left-0 w-full h-full hidden bg-purple-400 bg-opacity-0  group-hover:flex group-hover:bg-opacity-80  group-hover:rounded-lg transition-all duration-200">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href={demo} target="_blank" rel="noopener noreferrer">
             <HiOutlineEye className="text-3xl text-white m-5 cursor-pointer hover:text-gray-600" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href={source} target="_blank" rel="noopener noreferrer">
             <HiOutlineCodeBracket className="text-3xl text-white m-5 cursor-pointer hover:text-gray-600" />
           </a>
         </div>
