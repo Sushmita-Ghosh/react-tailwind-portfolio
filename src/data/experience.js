@@ -1,5 +1,5 @@
 import about from "../assets/about.png";
-import ps from "../assets/experiences/ps.png";
+// import ps from "../assets/experiences/ps.png";
 
 export const experience = [
   {
@@ -12,7 +12,7 @@ export const experience = [
       "Contributed to In-house UI Library",
       "Enhanced website accessibility",
     ],
-    imageSrc: ps,
+    // imageSrc: ps,
   },
   {
     role: "System Engineer",
