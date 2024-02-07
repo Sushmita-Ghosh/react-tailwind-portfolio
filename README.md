@@ -13,9 +13,12 @@ This is a portfolio website built using react and tailwind. Used [Vite](https://
 - `React Js`
 - `Tailwind Css`
 
-## Animation Libraries:
+#### Animation Libraries:
 
 ---
 
 - `react-simple-typewriter`
 - `react-fast-marquee`
+- 
+
+#### **Hosted At:** https://sushmita-portfolio.vercel.app/
