@@ -23,7 +23,7 @@ To add that extra flair to the website, I've incorporated some cool animation li
 
 ## Hosted At 🌍:
 
-Check out the live version of the portfolio here: [https://sushmita-portfolio.vercel.app/](https://sushmita-portfolio.vercel.app/)
+Check out the live version of the portfolio [Here 🎭](https://sushmita-portfolio.vercel.app/)
 
 Dive into the code, explore the animations, and see the responsive design in action. This portfolio is a testament to what modern web development can achieve with the right tools and a bit of creativity. Enjoy browsing!
 
