@@ -12,7 +12,7 @@ const ProjectCard = ({
   source,
 }) => {
   return (
-    <div className="m-5 md:m-10 rounded-lg">
+    <div className="m-5 md:m-0 rounded-lg">
       <div className="h-52 md:h-72 relative group">
         <img
           src={imageSrc}
