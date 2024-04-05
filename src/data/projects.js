@@ -30,8 +30,8 @@ export const projects = [
     imageSrc: chingu,
     description: "A online quiz application using react and node",
     skills: ["React", "Express", "Node", "Lottie Animations"],
-    demo: "https://github.com/Sushmita-Ghosh/mern_chat_app",
-    source: "https://github.com/Sushmita-Ghosh/mern_chat_app",
+    demo: "https://chingu-tect-trivia.netlify.app/",
+    source: "https://github.com/Sushmita-Ghosh/chingu-trivia",
     category: ["FullStack", "All"],
   },
   {
