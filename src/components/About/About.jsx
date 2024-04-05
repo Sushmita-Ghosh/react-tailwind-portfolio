@@ -5,7 +5,11 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const About = () => {
   const [text] = useTypewriter({
-    words: ["Hi, My Name is Sushmita"],
+    words: [
+      "Passionate Web Developer",
+      "Full Stack Web Developer",
+      "Lover of Cats",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
@@ -13,10 +17,11 @@ const About = () => {
     <section className="min-h-screen px-10 ">
       <div className="text-center px-10 pt-10 pb-5">
         <h2 className="text-5xl py-2 text-purple-600 font-medium">
-          {text}
-          <Cursor />
+          Hi, My Name is Sushmita
         </h2>
-        <h3 className="text-2xl py-2">Full Stack Web Developer</h3>
+        <h3 className="text-2xl py-2">
+          I am a {text} <Cursor />
+        </h3>
         <p className="text-medium py-2 leading-8 text-gray-800 dark:text-gray-400">
           I am a software developer on a mission to craft web experiences.
         </p>
